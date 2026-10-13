@@ -69,6 +69,7 @@ Vercel ist **nicht** mit GitHub verbunden. Ein Push veröffentlicht nichts, das 
 | 13.10. | `HOWTO.md` auf Protokoll beschränkt, offene Punkte in neue `TODO.md` verschoben | KI | |
 | 13.10. | `AGENTS.md` angelegt: verankert die Arbeitsweise mit `HOWTO.md` und `TODO.md` | KI | |
 | 13.10. | AI-Quest vollständig entfernt (Ordner `ai-quest/`, Erwähnungen in Doku), auf Wunsch von Mandy ohne Backup | KI | Auch online entfernt (neu deployt) |
+| 13.10. | AI-Quest auch aus dem Git-Verlauf entfernt (`filter-branch`) und mit ausdrücklicher Zustimmung von Mandy per `--force-with-lease` gepusht | KI | Alle Commit-Hashes ab `603d65f` haben sich geändert |
 
 ## 6. Offene Punkte
 
