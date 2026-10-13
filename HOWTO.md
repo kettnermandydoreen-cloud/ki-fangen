@@ -69,6 +69,7 @@ Vercel ist **nicht** mit GitHub verbunden. Ein Push veröffentlicht nichts, das 
 | 13.10. | `UEBERGABE_Spiele.md` gelöscht, diese Datei angelegt | KI | Die Übergabe nannte `160c345` und KI-Fänger fälschlich als nicht vom Chat stammend |
 | 13.10. | `README.md` korrigiert (Root Directory leer, Hinweis auf `ai-quest/`), anschließend mit Mandys Zustimmung auf Vercel deployt | KI | Damit sind die Glossar-Fragen aus `160c345` online |
 | 13.10. | `HOWTO.md` auf Protokoll beschränkt, offene Punkte in neue `TODO.md` verschoben | KI | |
+| 13.10. | `AGENTS.md` angelegt: verankert die Arbeitsweise mit `HOWTO.md` und `TODO.md` | KI | |
 
 ## 6. Offene Punkte
 
