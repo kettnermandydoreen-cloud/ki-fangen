@@ -1,12 +1,12 @@
-# TODO: KI-Fänger und AI-Quest
+# TODO: KI-Fänger
 
 Hier steht nur, was **noch offen** ist. Was erledigt wurde, steht im Protokoll in `HOWTO.md`. Stand: 13.10.2026.
 
 ## Vor dem Teilen
 
-- [ ] Beide Spiele im Browser durchspielen: Kämpfe, Fangen, Shop, Speichern, Handy-Steuerung, Reduced-Motion. Bisher wurde nur die Syntax geprüft.
+- [ ] Das Spiel im Browser durchspielen: Kämpfe, Fangen, Shop, Speichern, Handy-Steuerung, Reduced-Motion. Bisher wurde nur die Syntax geprüft.
 - [ ] Quizfragen auf Aktualität prüfen (Stand Oktober 2026), besonders Kurswerte wie das Datum 02.08.2026 (EU AI Act Art. 50), 7 Tage und 500 MB (Supabase Free Tier).
-- [ ] Impressum und Datenschutz: Die Spielseiten haben keins. Auf die Seiten des Portfolios verlinken oder die Spiele nur privat teilen. Vercel als Hosting erwähnen.
+- [ ] Impressum und Datenschutz: Die Spielseite hat keins. Auf die Seiten des Portfolios verlinken oder das Spiel nur privat teilen. Vercel als Hosting erwähnen.
 
 ## Betrieb
 
@@ -15,9 +15,7 @@ Hier steht nur, was **noch offen** ist. Was erledigt wurde, steht im Protokoll i
 
 ## Entscheidungen
 
-- [ ] Beide Spiele im selben Repo lassen oder AI-Quest ein eigenes Repo geben?
-- [ ] Spiele im Portfolio verlinken?
-- [ ] AI-Quest: neues Glossar einbauen oder bewusst getrennt lassen?
+- [ ] Spiel im Portfolio verlinken?
 
 ## Ideen
 

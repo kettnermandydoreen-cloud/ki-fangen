@@ -1,4 +1,4 @@
-# HOWTO und Protokoll: KI-Fänger und AI-Quest
+# HOWTO und Protokoll: KI-Fänger
 
 Diese Datei dokumentiert, **was gemacht wurde** (Logbuch). Was noch offen ist, steht in `TODO.md`. **Nach jeder Änderung einen Eintrag im Protokoll ergänzen** (Datum, was, warum, wo) und erledigte Punkte in `TODO.md` abhaken oder entfernen. Sie enthält keine Zugangsdaten.
 
@@ -6,9 +6,9 @@ Diese Datei dokumentiert, **was gemacht wurde** (Logbuch). Was noch offen ist, s
 
 | Was | Wert |
 |---|---|
-| Spiele | KI-Fänger (Hauptordner), AI-Quest (`ai-quest/index.html`) |
+| Spiel | KI-Fänger (Hauptordner) |
 | Technik | Reines HTML, CSS, JavaScript. Kein Build, kein Backend. Spielstand im `localStorage` |
-| Online | https://ki-fangen.vercel.app/ und https://ki-fangen.vercel.app/ai-quest/ |
+| Online | https://ki-fangen.vercel.app/ |
 | GitHub | https://github.com/kettnermandydoreen-cloud/ki-fangen (Public, Branch `main`) |
 | Lokaler Ordner | `~/Desktop/ki-fangen-neu` |
 | Vercel | Projekt `ki-fangen`, Hobby-Tarif (nur nicht-kommerziell), Region Frankfurt |
@@ -25,7 +25,6 @@ Diese Datei dokumentiert, **was gemacht wurde** (Logbuch). Was noch offen ist, s
 | `sprites.js` | Pixelwesen, die aus dem Tool-Namen erzeugt werden |
 | `audio.js` | Effekte und Musik per Web Audio, keine Audiodateien |
 | `vercel.json` | Saubere URLs und Sicherheits-Header |
-| `ai-quest/index.html` | Zweites Spiel in einer Datei |
 
 ## 3. Anleitungen
 
@@ -62,14 +61,14 @@ Vercel ist **nicht** mit GitHub verbunden. Ein Push veröffentlicht nichts, das 
 |---|---|---|---|
 | 08.10. | Erstes Quizspiel als Einzeldatei, danach zum Projekt ausgebaut: Canvas-Welt, zwei Karten, Trainer, Shop, Level, Endgegner AGI, KI-Dex, Sound, Speicherstand. Commit `2c5a2ea` | KI (Claude Sonnet) auf Wunsch von Mandy | Zuerst im Portfolio-Repo unter `ki-fangen/`, nur auf Syntax und Daten geprüft, nicht durchgespielt |
 | 08.10. | Glossar `Glossar_KI-Manager_gesamt.md` eingebaut: 60 Fragen, ohne Dopplungen | KI | Fragen von Hand aus den Definitionen geschrieben |
-| 12.10. | AI-Quest gebaut: 12×9-Karte, 15 Tools, Quiz mit Zeitlimit, Fangchancen, KI-Dex | KI in einem anderen Chat | Nur Syntax geprüft, nicht durchgespielt |
-| 13.10. | Spiele in eigenes Repo `ki-fangen` ausgelagert, Git-Verlauf übernommen, `ai-quest/` ergänzt. Commits `603d65f`, `4fc43a4` (`.vercel` ignoriert). Aus dem Portfolio-Repo wieder entfernt (`2754f48` bleibt im Verlauf) | KI in einem anderen Chat | |
+| 13.10. | Spiel in eigenes Repo `ki-fangen` ausgelagert, Git-Verlauf übernommen. Commits `603d65f`, `4fc43a4` (`.vercel` ignoriert). Aus dem Portfolio-Repo wieder entfernt (`2754f48` bleibt im Verlauf) | KI in einem anderen Chat | |
 | 13.10. | Vercel eingerichtet und veröffentlicht, beide Adressen antworten mit 200 | KI in einem anderen Chat, Anmeldung durch Mandy | Es gab ein weiteres Deployment, dessen Herkunft unklar ist |
 | 13.10. | Neues Glossar (`Glossar_KI-Manager_gesamt (1).md`, 30 neue Begriffe) eingebaut: 33 neue Fragen, Pool jetzt 117. Commit `160c345` | KI (Claude Sonnet) | Gepusht, **nicht** deployt. Fragen mit Kurswerten (Datum, 7 Tage, 500 MB) prüfen |
 | 13.10. | `UEBERGABE_Spiele.md` gelöscht, diese Datei angelegt | KI | Die Übergabe nannte `160c345` und KI-Fänger fälschlich als nicht vom Chat stammend |
-| 13.10. | `README.md` korrigiert (Root Directory leer, Hinweis auf `ai-quest/`), anschließend mit Mandys Zustimmung auf Vercel deployt | KI | Damit sind die Glossar-Fragen aus `160c345` online |
+| 13.10. | `README.md` korrigiert (Root Directory leer), anschließend mit Mandys Zustimmung auf Vercel deployt | KI | Damit sind die Glossar-Fragen aus `160c345` online |
 | 13.10. | `HOWTO.md` auf Protokoll beschränkt, offene Punkte in neue `TODO.md` verschoben | KI | |
 | 13.10. | `AGENTS.md` angelegt: verankert die Arbeitsweise mit `HOWTO.md` und `TODO.md` | KI | |
+| 13.10. | AI-Quest vollständig entfernt (Ordner `ai-quest/`, Erwähnungen in Doku), auf Wunsch von Mandy ohne Backup | KI | Auch online entfernt (neu deployt) |
 
 ## 6. Offene Punkte
 
