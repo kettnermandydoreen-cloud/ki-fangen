@@ -1,6 +1,6 @@
 # HOWTO und Protokoll: KI-Fänger und AI-Quest
 
-Diese Datei ist das Logbuch des Projekts. **Nach jeder Änderung einen Eintrag im Protokoll ergänzen** (Datum, was, warum, wo). Sie enthält keine Zugangsdaten.
+Diese Datei dokumentiert, **was gemacht wurde** (Logbuch). Was noch offen ist, steht in `TODO.md`. **Nach jeder Änderung einen Eintrag im Protokoll ergänzen** (Datum, was, warum, wo) und erledigte Punkte in `TODO.md` abhaken oder entfernen. Sie enthält keine Zugangsdaten.
 
 ## 1. Überblick
 
@@ -68,13 +68,8 @@ Vercel ist **nicht** mit GitHub verbunden. Ein Push veröffentlicht nichts, das 
 | 13.10. | Neues Glossar (`Glossar_KI-Manager_gesamt (1).md`, 30 neue Begriffe) eingebaut: 33 neue Fragen, Pool jetzt 117. Commit `160c345` | KI (Claude Sonnet) | Gepusht, **nicht** deployt. Fragen mit Kurswerten (Datum, 7 Tage, 500 MB) prüfen |
 | 13.10. | `UEBERGABE_Spiele.md` gelöscht, diese Datei angelegt | KI | Die Übergabe nannte `160c345` und KI-Fänger fälschlich als nicht vom Chat stammend |
 | 13.10. | `README.md` korrigiert (Root Directory leer, Hinweis auf `ai-quest/`), anschließend mit Mandys Zustimmung auf Vercel deployt | KI | Damit sind die Glossar-Fragen aus `160c345` online |
+| 13.10. | `HOWTO.md` auf Protokoll beschränkt, offene Punkte in neue `TODO.md` verschoben | KI | |
 
 ## 6. Offene Punkte
 
-- [ ] Vercel mit GitHub verbinden, damit Pushes automatisch deployen.
-- [ ] Impressum und Datenschutz: Spielseiten haben keins. Auf die Seiten des Portfolios verlinken oder die Spiele nur privat teilen. Vercel als Hosting erwähnen.
-- [ ] Beide Spiele im Browser durchspielen (Kämpfe, Fangen, Handy-Steuerung, Reduced-Motion).
-- [ ] Quizfragen auf Aktualität prüfen (Stand Oktober 2026).
-- [ ] AI-Quest: neues Glossar einbauen oder bewusst getrennt lassen.
-- [ ] Entscheiden, ob beide Spiele im selben Repo bleiben und ob sie im Portfolio verlinkt werden.
-- [ ] Optional: Highscore-Liste über n8n.
+Siehe `TODO.md`.

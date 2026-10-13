@@ -17,4 +17,4 @@ Das Spiel liegt im Hauptordner des Repos. Beim Import in Vercel das Feld **Root 
 
 - Der Spielstand liegt nur im localStorage des Browsers.
 - Fragen: `data.js` (Antwort an Index 0 ist richtig). Karten: `maps.js`.
-- Protokoll und Anleitungen: `HOWTO.md`.
+- Protokoll und Anleitungen: `HOWTO.md`. Offene Punkte: `TODO.md`.
