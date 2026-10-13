@@ -67,12 +67,11 @@ Vercel ist **nicht** mit GitHub verbunden. Ein Push veröffentlicht nichts, das 
 | 13.10. | Vercel eingerichtet und veröffentlicht, beide Adressen antworten mit 200 | KI in einem anderen Chat, Anmeldung durch Mandy | Es gab ein weiteres Deployment, dessen Herkunft unklar ist |
 | 13.10. | Neues Glossar (`Glossar_KI-Manager_gesamt (1).md`, 30 neue Begriffe) eingebaut: 33 neue Fragen, Pool jetzt 117. Commit `160c345` | KI (Claude Sonnet) | Gepusht, **nicht** deployt. Fragen mit Kurswerten (Datum, 7 Tage, 500 MB) prüfen |
 | 13.10. | `UEBERGABE_Spiele.md` gelöscht, diese Datei angelegt | KI | Die Übergabe nannte `160c345` und KI-Fänger fälschlich als nicht vom Chat stammend |
+| 13.10. | `README.md` korrigiert (Root Directory leer, Hinweis auf `ai-quest/`), anschließend mit Mandys Zustimmung auf Vercel deployt | KI | Damit sind die Glossar-Fragen aus `160c345` online |
 
 ## 6. Offene Punkte
 
-- [ ] Neu deployen, damit die Glossar-Fragen aus `160c345` online sind (öffentlich, vorher Rückfrage).
 - [ ] Vercel mit GitHub verbinden, damit Pushes automatisch deployen.
-- [ ] `README.md` korrigieren: dort steht noch „Root Directory `ki-fangen`“, im neuen Repo muss es leer bleiben. Hinweis auf `ai-quest/` ergänzen.
 - [ ] Impressum und Datenschutz: Spielseiten haben keins. Auf die Seiten des Portfolios verlinken oder die Spiele nur privat teilen. Vercel als Hosting erwähnen.
 - [ ] Beide Spiele im Browser durchspielen (Kämpfe, Fangen, Handy-Steuerung, Reduced-Motion).
 - [ ] Quizfragen auf Aktualität prüfen (Stand Oktober 2026).
